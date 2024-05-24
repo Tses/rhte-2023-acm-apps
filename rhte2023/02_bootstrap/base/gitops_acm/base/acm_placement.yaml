@@ -12,9 +12,9 @@ spec:
         labelSelector:
           matchLabels:
             vendor: OpenShift
-        claimSelector:
-          matchExpressions:
-            - key: platform.open-cluster-management.io
-              operator: In
-              values:
-                - AWS
+#        claimSelector:
+#          matchExpressions:
+#            - key: platform.open-cluster-management.io
+#              operator: In
+#              values:
+#                - Azure
