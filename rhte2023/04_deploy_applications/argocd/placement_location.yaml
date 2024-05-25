@@ -7,14 +7,14 @@ metadata:
 spec:
   clusterSets:
     - rhte2023-gitops-clusters
-#  predicates:
-#   - requiredClusterSelector:
-#       claimSelector:
-#         matchExpressions:
-#           - key: region.open-cluster-management.io
-#             operator: In
-#             values:
-#               - eu-west-2
+  predicates:
+   - requiredClusterSelector:
+       claimSelector:
+         matchExpressions:
+           - key: region.open-cluster-management.io
+             operator: In
+             values:
+               - uksouth
 #       labelSelector:
 #         matchLabels:
 #           area: fringe
