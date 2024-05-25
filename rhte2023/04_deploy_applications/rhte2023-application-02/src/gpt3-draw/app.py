@@ -13,7 +13,7 @@ app=Flask(__name__,template_folder='templates')
 app = Flask(__name__, static_url_path='/static')
 
 # Create an openaiapikey.txt file and save your api key.
-openai.api_key = "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"
+openai.api_key = "cccc"
 
 def bot(prompt, size="1024x1024", n=1, response_format="b64_json"):
     max_retry = 1

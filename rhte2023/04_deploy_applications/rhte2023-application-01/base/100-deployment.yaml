@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: rhte2023-application-01
     spec:
       containers:
-      - image: quay.io/jclaret/chatbot:latest
+      - image: docker.io/tses/chatbot:latest
         imagePullPolicy: Always
         name: rhte2023-application-01
         ports:

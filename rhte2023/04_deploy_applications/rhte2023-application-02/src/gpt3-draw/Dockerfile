@@ -3,7 +3,7 @@
 FROM python:3.8-slim-buster
 
 COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install openai==0.28 --no-cache-dir -r requirements.txt
 
 RUN mkdir -p /app/templates
 RUN mkdir -p /app/static/images
