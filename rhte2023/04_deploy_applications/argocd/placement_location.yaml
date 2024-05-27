@@ -14,7 +14,7 @@ spec:
            - key: region.open-cluster-management.io
              operator: In
              values:
-               - ItalyNorth
+               - uksouth
                # - uksouth
 #       labelSelector:
 #         matchLabels:
